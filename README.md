@@ -1,2 +1,68 @@
-# SampleYOLOv11
+# SAMPLE YOLOv11 PRACTICE
 Use this repository to practice setting-up YOLOv11 using custom dataset downloaded form Roboflow
+
+# OUTLINE
+- Setting Up YOLOv11
+- Preparing a Custom Dataset
+- YAML Configuration for Custom Dataset
+- Training YOLOv11 with Custom Dataset
+- Running Inference with the Custom Model
+
+# SETTING-UP OF YOLOv11
+- Open VS Code and create a designated folder
+- Create a python file name “YOLOtrain”
+- Create virtual environment. Go to search box and select Show and Run Commands, select “Python: Create Environment”
+Note: For those who don’t have python installed on their pc install it from “python.org/downloads”
+- Open the “Terminal > New Terminal” 
+- Verify the CUDA version by typing “nividia-smi” on the Terminal.
+- Install pytorch from pytorch.org. Scroll it down to see this section shown below:
+
+For CPU users:
+
+		pip3 install torch torchvision torchaudio 
+
+For GPU users:
+
+		pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+- Copy the command and paste it on the Terminal.
+- Install module name ultralytics by typing “pip install ultralytics”
+
+# PREPARING CUSTOM DATASET
+- Download the “rock-paper-scissors” dataset from Roboflow.
+  R. Roboflow, “Rock-paper-scissors Dataset,” Roboflow Universe, Feb. 2025. [Online]. Available: https://universe.roboflow.com/roboflow-58fyf/rock-paper-scissors-sxsw. [Accessed: Feb. 3, 2025].
+- Select “YOLOv11” download format.
+- Select “Download zip to computer”  then click “Continue”.
+- Save the dataset to your working folder.
+
+# YAML CONFIGURATION FOR CUSTOM DATASET
+- Go to the dataset “Overview”.
+- Inspect the classes names under “CLASSES”.
+- Go to your working folder and select “data.yaml” file.
+- You can see their the directory of your train, valid, and test datasets.
+- “nc” is the number of classes and check under “names” if the class names are the same in the overview.
+
+# TRAINING YOLOv11 WITH CUSTOM DATASET
+- Training YOLOv11 requires following commands and set of codes to run.
+- In the next slide, copy the code shown:
+
+Training the model:
+
+    from ultralytics import YOLO
+    
+    if __name__ == '__main__':
+      
+      model = YOLO('yolo11n.pt')  # Start with pre-trained weights
+      results = model.train(
+          data='replace_with_your_actual_data.yaml_folder_directory',
+          epochs=100, #Replace this with our preference
+          imgsz=640, # Input image size
+          batch=16,  # Adjust batch size 
+          patience=50,
+          device='0'  # Replace with "0" to use your machine's GPU if pytorch GPU installed. Replace with "cpu" if pytorch CPU installed.
+      )
+- Copy the directory path of your data.yaml file.
+- Paste it on the value of “data” variable on your code.
+- Double check the parameter values. You can check other parameters here:
+  https://docs.ultralytics.com/modes/train/#train-settings
+- 

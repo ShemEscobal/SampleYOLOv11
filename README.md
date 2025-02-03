@@ -65,4 +65,6 @@ Training the model:
 - Paste it on the value of “data” variable on your code.
 - Double check the parameter values. You can check other parameters here:
   https://docs.ultralytics.com/modes/train/#train-settings
+
+# RUNNING INFERENCE WITH CUSTOM MODEL
 - 

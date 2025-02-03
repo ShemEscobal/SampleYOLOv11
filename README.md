@@ -1,4 +1,7 @@
-# SAMPLE YOLOv11 PRACTICE
+# SAMPLE YOLOv11 PRACTICE 
+
+by Mechatronics and Robotics Society of the Philippines (MRSP) - Cavite Chapter
+
 Use this repository to practice setting-up YOLOv11 using custom dataset downloaded form Roboflow
 
 # OUTLINE
@@ -67,4 +70,11 @@ Training the model:
   https://docs.ultralytics.com/modes/train/#train-settings
 
 # RUNNING INFERENCE WITH CUSTOM MODEL
-- 
+- Using the “YOLODetect.py”, replace model path with your actual directory. 
+
+Find this line on the “YOLODetect.py” python file uploaded.
+
+     model = YOLO('path_to_your_trained_model.pt')
+- Run the code. This should use your webcam as the input device.
+
+You can now explore your own projects. Feel free to ask!

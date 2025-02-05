@@ -32,8 +32,7 @@ For GPU users:
 - Install module name ultralytics by typing “pip install ultralytics”
 
 # PREPARING CUSTOM DATASET
-- Download the “rock-paper-scissors” dataset from Roboflow.
-  R. Roboflow, “Rock-paper-scissors Dataset,” Roboflow Universe, Feb. 2025. [Online]. Available: https://universe.roboflow.com/roboflow-58fyf/rock-paper-scissors-sxsw. [Accessed: Feb. 3, 2025].
+- Download the “rock-paper-scissors” dataset from Roboflow [1].
 - Select “YOLOv11” download format.
 - Select “Download zip to computer”  then click “Continue”.
 - Save the dataset to your working folder.
@@ -78,3 +77,7 @@ Find this line on the “YOLODetect.py” python file uploaded.
 - Run the code. This should use your webcam as the input device.
 
 You can now explore your own projects. Feel free to ask!
+
+References
+
+[1] R. Roboflow, “Rock-paper-scissors Dataset,” Roboflow Universe, Feb. 2025. [Online]. Available: https://universe.roboflow.com/roboflow-58fyf/rock-paper-scissors-sxsw. [Accessed: Feb. 3, 2025].

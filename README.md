@@ -13,7 +13,7 @@ Use this repository to practice setting-up YOLOv11 using custom dataset download
 
 # SETTING-UP OF YOLOv11
 - Open VS Code and create a designated folder
-- Create a python file name “YOLOtrain”
+- Create a python file name “YOLOtrain”. Or you can also you the file in this repository.
 - Create virtual environment. Go to search box and select Show and Run Commands, select “Python: Create Environment”
 Note: For those who don’t have python installed on their pc install it from “python.org/downloads”
 - Open the “Terminal > New Terminal” 

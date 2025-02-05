@@ -29,7 +29,11 @@ For GPU users:
 		pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 
 - Copy the command and paste it on the Terminal.
-- Install module name ultralytics by typing “pip install ultralytics”
+- Install module name ultralytics
+
+To install Ultralytics module, copy and paste this to the terminal:
+		
+  		pip install ultralytics
 
 # PREPARING CUSTOM DATASET
 - Download the “rock-paper-scissors” dataset from Roboflow [1].

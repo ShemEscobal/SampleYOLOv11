@@ -2,7 +2,7 @@
 
 by Mechatronics and Robotics Society of the Philippines (MRSP) - Cavite Chapter
 
-Use this repository to practice setting-up YOLOv11 using custom dataset downloaded form Roboflow
+Use this repository to practice setting-up YOLOv11 using custom dataset downloaded from Roboflow
 
 # OUTLINE
 - Setting Up YOLOv11

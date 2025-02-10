@@ -79,7 +79,7 @@ Training the model:
 - You can only proceed in this section if you have accomplished the model training process whic is the previous step.
 - Using the “YOLODetect.py”, replace model path with your actual directory. 
 
-Find this line on the “YOLODetect.py” python file uploaded.
+Find this line on the “YOLODetect.py” python file uploaded. In this example, it is located on the line 5.
 
      model = YOLO('path_to_your_trained_model.pt')
 - Run the code. This should use your webcam as the input device.

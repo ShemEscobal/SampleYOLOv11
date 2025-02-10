@@ -39,7 +39,7 @@ To install Ultralytics module, copy and paste this to the terminal:
 You can also visit https://pytorch.org/ to download the version that fits to your CUDA version, python environment, and operating system.
 
 # PREPARING CUSTOM DATASET
-- Download the “rock-paper-scissors” dataset from Roboflow [1].
+- Download the “rock-paper-scissors” dataset from Roboflow [1]. You can visit this link to download the sample dataset: https://universe.roboflow.com/roboflow-58fyf/rock-paper-scissors-sxsw
 - Select “YOLOv11” download format.
 - Select “Download zip to computer”  then click “Continue”.
 - Save the dataset to your working folder.

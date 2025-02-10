@@ -16,6 +16,7 @@ Use this repository to practice setting-up YOLOv11 using custom dataset download
 - Create a python file name “YOLOtrain.py”. Or you can also use the file in this repository.
 - Create virtual environment. Go to search box and select Show and Run Commands, select “Python: Create Environment” and select the available Python version that displays.
 Note: For those who don’t have python installed on their pc install it from “python.org/downloads”
+- After creating the python environment, RE-OPEN the Terminal to activate the created evironment.
 - Open the “Terminal > New Terminal”. You can locate it on the upper side.
 - Verify the CUDA version by typing “nvidia-smi” on the Terminal.
 - Install pytorch from pytorch.org. Scroll it down to see this section shown below:

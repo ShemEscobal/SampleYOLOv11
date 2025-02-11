@@ -76,7 +76,7 @@ Training the model:
   https://docs.ultralytics.com/modes/train/#train-settings
 
 # RUNNING INFERENCE WITH CUSTOM MODEL
-- You can only proceed in this section if you have accomplished the model training process whic is the previous step.
+- You can only proceed in this section if you have accomplished the model training process which is the previous step.
 - Using the “YOLODetect.py”, replace model path with your actual directory. 
 
 Find this line on the “YOLODetect.py” python file uploaded. In this example, it is located on the line 5.

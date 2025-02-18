@@ -1,4 +1,4 @@
-# SAMPLE YOLOv11 PRACTICE 
+# YOLOv11 PRACTICE 
 
 by Mechatronics and Robotics Society of the Philippines (MRSP) - Cavite Chapter
 
